@@ -1,5 +1,4 @@
-﻿using Infrastructure;
-using Microsoft.Extensions.Caching.Distributed;
+﻿using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -29,7 +28,7 @@ namespace Plugin.SlideCaptcha.Storage
 			var bytes = _cache.Get(WrapKey(key));
 			if (bytes == null) return default;
 			var json = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
-			return JsonHelper.Deserialize<T>(json);
+			return JsonSerializer.Deserialize<T>(json);
 		}
 
 		public void Remove(string key)
@@ -39,7 +38,7 @@ namespace Plugin.SlideCaptcha.Storage
 
 		public void Set<T>(string key, T value, DateTimeOffset absoluteExpiration)
 		{
-			string json = JsonHelper.Serialize(value);
+			string json = JsonSerializer.Serialize(value);
 			byte[] bytes = Encoding.UTF8.GetBytes(json);
 
 			_cache.Set(WrapKey(key), bytes, new DistributedCacheEntryOptions
