@@ -16,11 +16,13 @@
     <PackageVersion Include="FreeSql.Repository" Version="3.2.810" />
     <PackageVersion Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
     <PackageVersion Include="Mapster" Version="7.4.0" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.1" />
     <PackageVersion Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="9.0.0" />
@@ -57,7 +59,7 @@
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="7.1.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Swagger" Version="7.1.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.1.0" />
-    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
     <PackageVersion Include="System.Security.AccessControl" Version="6.0.0" />
     <PackageVersion Include="UAParser" Version="3.1.47" />
     <PackageVersion Include="Yitter.IdGenerator" Version="1.0.14" />
