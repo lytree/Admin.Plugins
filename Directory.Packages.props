@@ -16,22 +16,24 @@
     <PackageVersion Include="FreeSql.Repository" Version="3.2.810" />
     <PackageVersion Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
     <PackageVersion Include="Mapster" Version="7.4.0" />
-    <PackageVersion Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting.Systemd" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Options" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Systemd" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Configuration" Version="9.0.0" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.0" />
+    <PackageVersion Include="System.IO.Pipelines" Version="9.0.0" />
     <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
     <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
     <PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.49-beta" />
